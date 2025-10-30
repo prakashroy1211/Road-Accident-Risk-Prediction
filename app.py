@@ -9,7 +9,7 @@ import numpy as np
 def load_model():
     """Loads the saved model pipeline from disk."""
     try:
-        pipeline = joblib.load('accident_risk_model.joblib')
+        pipeline = joblib.load('road_safety_model.joblib')
         return pipeline
     except FileNotFoundError:
         return None
