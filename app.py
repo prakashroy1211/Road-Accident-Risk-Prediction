@@ -61,10 +61,10 @@ def engineer_features_app(df):
 # --- 3. Streamlit Page Setup ---
 st.set_page_config(
     page_title="Road Accident Risk Predictor",
-    page_icon="🚗",
+    page_icon="",
     layout="wide"
 )
-st.title("🚗 Road Accident Risk Predictor")
+st.title("Road Accident Risk Predictor")
 
 if model and label_encoders:
     # --- 4. Sidebar Inputs ---
